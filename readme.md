@@ -1,7 +1,10 @@
 # metricbeat
 > 目的：在centos7中搭建metricbeat监听系统的的状况，为了保证环境的稳定使用docker进行搭建环境。可以基于此repo中的metricbeat做其他的工作
 >
-> 如果仅仅想使用这个docker image，可执行该指令获取打包生成的image：docker pull fanqiliang/os_metricbeat:latest
+> 如果仅仅想使用这个docker image，可执行该指令获取打包生成的image：
+```shell script
+docker pull fanqiliang/os_metricbeat:latest
+```
 ### 1. docker环境：centos7
 ### 2. 软件依赖：
 > metricbeat：用于监听centos7系统
