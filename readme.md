@@ -12,7 +12,7 @@ docker pull fanqiliang/os_metricbeat:latest
 ### 3. 构建
 ```shell script
 # make sure the docker is already installed
-sudo chmod +x build.bash && ./build.sh# build the environment
+sudo chmod +x build.sh && ./build.sh# build the environment
 sudo docker attach metricbeat
 # or: sudo docker exec -it metricbeat /bin/bash
 ```
