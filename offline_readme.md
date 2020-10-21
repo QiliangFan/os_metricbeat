@@ -11,7 +11,7 @@ docker load -i os_mtricbeat.img
 ```shell script
 rm -rf logs
 mkdir logs
-docker run -it -d -v logs:/metricbeat/logs --name os_mtricbeat fanqiliang/os_mtricbeat:lates /bin/bash
+docker run -it -d -v logs:/metricbeat/logs --name os_mtricbeat fanqiliang/os_mtricbeat:latest /bin/bash
 ```
 
 ### 4. 进入容器运行环境
