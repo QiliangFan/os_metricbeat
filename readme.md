@@ -5,6 +5,9 @@
 ```shell script
 docker pull fanqiliang/os_metricbeat:latest
 ```
+> 如果你所在网络环境不能拉取docker image，可以参考该[readme.md](offline_readme.md)
+> 
+> 一些更多的细节也包含在其中可供查看
 ### 1. docker环境：centos7
 ### 2. 软件依赖：
 > metricbeat：用于监听centos7系统
